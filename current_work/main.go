@@ -16,7 +16,7 @@ func main() {
 	}
 	var goods1 []goodsStr
 	var db *sql.DB
-	db, err := sql.Open("mysql", "root:pvyAKS!10@tcp(62.152.59.9:3306)/shop")
+	db, err := sql.Open("mysql", "root:pass@tcp(62.152.59.9:3306)/shop")
 	if err != nil {
 		fmt.Println(err)
 	}
