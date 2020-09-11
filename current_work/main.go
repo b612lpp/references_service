@@ -23,6 +23,7 @@ func main() {
 	err = db.Ping()
 	fmt.Println(err)
 	z := 1
+	//check it
 
 	getFromGoods, err := db.Query("select id, Name from users where id>?;", z)
 	for getFromGoods.Next() {
